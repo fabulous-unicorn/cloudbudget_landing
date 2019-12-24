@@ -1,0 +1,13 @@
+:colors {
+    --color_bg: white;
+    
+    --color_typo_primary_dark: black;
+    --color_typo_primary_light: white;
+
+    --color_accent_first: #D52047;
+    --color_accent_second: #EE3D1B;
+}
+
+:spaces {
+    --space_s: 8px;
+}
