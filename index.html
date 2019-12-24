@@ -12,12 +12,13 @@
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/normalize.css">
 
+    <link rel="stylesheet" href="styles/global.css">
     <link rel="stylesheet" href="styles/fonts.css">
     <link rel="stylesheet" href="styles/button.css">
 
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/video.css">
-    <link rel="stylesheet" href="styles/fearures.css">
+    <link rel="stylesheet" href="styles/features.css">
     <link rel="stylesheet" href="styles/technology.css">
     <link rel="stylesheet" href="styles/appdownload.css">
     <link rel="stylesheet" href="styles/contact.css">
@@ -25,42 +26,40 @@
 
 </head>
 <body>
-    <header">
-        <div class=" class="container">
-            <nav>
-                <ul>
-                    <li>
-                        <a href="#">cloudbadget</a>
-                    </li>
-                    
-                    <li><a href="#">overview</a></li>
-                    <li><a href="">features</a></li>
-                    <li><a href="">technology</a></li>
-                    <li><a href="">contact</a></li>
-                    <li><a href="">sign up</a></li>
-                    
-                    <li>
-                        <!-- TODO: спросить про смену языка, метод и прочее -->
-                        <form action="" method="get">
-                            <img src="assets/icons/emojione_flag_for_flag_united_states.svg" alt="country flag"  this.src='image.png'>
-                            <select name="localization">
-                                <option value="en">en</option>
-                                <option value="ru">ru</option>
-                            </select>
-                        </form>
-                    </li>
-                    
-                    <li><button>login</button></li>
+    <header>
+        <div class="overlay"></div>
+        <div class="container header__wrapper">
+            <nav class="header__nav">
+
+                <a href="#" class="nav__text_style nav__logo ">cloudbadget</a>
+                
+                <ul class="nav__list">
+                    <li><a class="nav__text_style nav__list__link" href="#">overview</a></li>
+                    <li><a class="nav__text_style nav__list__link" href="">features</a></li>
+                    <li><a class="nav__text_style nav__list__link" href="">technology</a></li>
+                    <li><a class="nav__text_style nav__list__link" href="">contact</a></li>
+                    <li><a class="nav__text_style nav__list__link" href="">sign up</a></li>
                 </ul>
+                <div class="nav__function">
+                    <!-- TODO: спросить про смену языка, метод и прочее -->
+                    <form action="" method="get" class="form_select_loc">
+                        <img src="assets/icons/emojione_flag_for_flag_united_states.svg" alt="country flag"  this.src='image.png'>
+                        <select name="localization" class="nav__text_style language_select">
+                            <option value="en">en</option>
+                            <option value="ru">ru</option>
+                        </select>
+                    </form>
+                    <button class="button outline_button login_button"">login</button>                
+                </div>
             </nav>
 
-            <section >
+            <section class="header__section">
                 <div></div>
-                    <h1>cloudbadget</h1>
-                    <p>Cloud budget management for everyone. Only €69.95 a Month After a 7 Day Trial of 
+                    <h1 class="h1">cloudbadget</h1>
+                    <p class="header__section__description">Cloud budget management for everyone. Only €69.95 a Month After a 7 Day Trial of 
                             Up to €4.99
                     </p>
-                    <button>sign up</button>
+                    <button class="button filled_light_button sign_up_button">sign up</button>
                 </div>
             </section>
         </div>

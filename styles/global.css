@@ -1,13 +1,17 @@
-:colors {
-    --color_bg: white;
-    
-    --color_typo_primary_dark: black;
-    --color_typo_primary_light: white;
+body {
+    font-family: Lato, sans-serif;
+}
 
-    --color_accent_first: #D52047;
-    --color_accent_second: #EE3D1B;
+:root {
+    --color-bg: white;
+    
+    --color-typo-primary-dark: black;
+    --color-typo-primary-light: white;
+
+    --color-accent-first: #D52047;
+    --color-accent-second: #EE3D1B;
 }
 
 :spaces {
-    --space_s: 8px;
+    --space-s: 8px;
 }
