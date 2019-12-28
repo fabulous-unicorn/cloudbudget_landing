@@ -3,15 +3,24 @@ body {
 }
 
 :root {
-    --color-bg: white;
+
+    /* colors */
+    --color-bg: #fff;
     
-    --color-typo-primary-dark: black;
-    --color-typo-primary-light: white;
+    --color-typo-primary-dark: #000;
+    --color-typo-primary-light: #fff;
 
     --color-accent-first: #D52047;
     --color-accent-second: #EE3D1B;
-}
 
-:spaces {
+    /* spaces */
     --space-s: 8px;
+
+    /* font size */
+    --font-size-s: 12px;
+    --font-size-x: 14px;
+    --font-size-m: 18px;
+    --font-size-l: 24px;
+    --font-size-xl: 36px;
+    --font-size-xxl: 72px;
 }
