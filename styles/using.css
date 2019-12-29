@@ -1,8 +1,7 @@
 .using {
     display: flex;
     justify-content: space-between;
-    padding-top: 94px;
-    padding-bottom: 94px;
+    padding: 94px 0;
 }
 
 .using__h {
@@ -37,9 +36,9 @@
 
 .videopreview__image {
     width: 445px;
-    margin-right: 100px;
     margin-left: 124px;
     height: 311px;
 
+    background: url("../assets/images/video_bg0.png") no-repeat center center;
     border-radius: 15px;
 }
