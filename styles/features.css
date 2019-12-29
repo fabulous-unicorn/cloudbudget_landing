@@ -1,10 +1,10 @@
 .features {
-    padding-top: 64px;
-    padding-bottom: 124px;
+    padding-top: var(--space-xxxl);
+    padding-bottom: var(--space-section-m);
 }
 
 .features__h {
-    margin-bottom: 64px;
+    margin-bottom: var(--space-xxxl);
 
     text-align: center;
     font-size: var(--font-size-xl);
@@ -15,21 +15,21 @@
     display: flex;
     justify-content: space-between;
 
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-top: 220px;
+    padding-left: var(--space-x);
+    padding-right: var(--space-x);
+    margin-top: var(--space-section-l);
 }
 
 .features__card {
     position: relative;
-    padding: 0px;
+    padding: 0;
 }
 
 .features__card__image {
     position: absolute;
     transform: translateX(-50%);
     left: 50%;
-    top: -156px;
+    bottom: 104px;
     width: 320px;
     height: 220px;
     z-index: 1;
@@ -57,10 +57,7 @@
     align-items: center;
     justify-content: space-between;
 
-    padding-top: 34px;
-    padding-bottom: 22px;
-    padding-left: 32px;
-    padding-right: 32px;
+    padding: var(--space-x) var(--space-m) ;
 }
 
 .features__card__h {
