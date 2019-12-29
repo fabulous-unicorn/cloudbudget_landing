@@ -30,8 +30,8 @@
     transform: translateX(-50%);
     left: 50%;
     top: -156px;
-    width: 350px;
-    height: 250px;
+    width: 310px;
+    height: 210px;
     z-index: 1;
 
     background-position: center center;
@@ -42,8 +42,8 @@
 .features__card__info {
     display: flex;
     position: relative;
-    width: 294px;
-    height: 198px;
+    width: 274px;
+    height: 168px;
     z-index: 2;
 
     background: var(--color-bg);
