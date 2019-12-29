@@ -15,8 +15,8 @@
     display: flex;
     justify-content: space-between;
 
-    padding-left: 34px;
-    padding-right: 34px;
+    padding-left: 20px;
+    padding-right: 20px;
     margin-top: 220px;
 }
 
@@ -30,8 +30,8 @@
     transform: translateX(-50%);
     left: 50%;
     top: -156px;
-    width: 310px;
-    height: 210px;
+    width: 320px;
+    height: 220px;
     z-index: 1;
 
     background-position: center center;
