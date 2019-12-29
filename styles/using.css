@@ -1,7 +1,7 @@
 .using {
     display: flex;
     justify-content: space-between;
-    padding: 94px 0;
+    padding: var(--space-section-x) 0;
 }
 
 .using__h {
@@ -10,8 +10,8 @@
 }
 
 .using__description {
-    margin-top: 54px;
-    margin-bottom: 20px;
+    margin-top: var(--space-xxl);
+    margin-bottom: var(--space-x);
 
     font-size: var(--font-size-x);
 }
@@ -27,8 +27,7 @@
     top: 50%;
     height: 66px;
     width: 66px;
-    padding-right: 0px;
-    padding-left: 0px;
+    padding: 0;
 
     border: none;
     background: url("../assets/icons/play_button.svg") no-repeat center center;

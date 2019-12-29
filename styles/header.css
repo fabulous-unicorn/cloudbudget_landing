@@ -38,14 +38,14 @@ header {
     grid-template-columns: 1fr 2fr 1fr; 
     align-items: center;
     justify-items: center;
-    padding-top: 20px;
+    padding-top: var(--space-x);
 }
 
 .nav__logo::before {
     display: inline-block;
     height: 20px;
     width: 30px;
-    margin-right: var(--space-s);
+    margin-right: var(--space-xs);
 
     content: "";
     background: url("../assets/icons/dashicons_cloud.svg") no-repeat center center;
@@ -74,7 +74,7 @@ header {
 .login_button {
     display: inline-block;
     width: 100px;
-    margin-left: 20px;
+    margin-left: var(--space-xs);
 }
 
 .header__section {
@@ -96,8 +96,7 @@ h1 {
 }
 
 .header__description {
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin: var(--space-l) 0;
     max-width: 520px;
     
     color: var(--color-typo-primary-light);
