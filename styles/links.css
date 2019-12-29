@@ -1,0 +1,5 @@
+.text_links {
+    font-size: var(--font-size-x);
+    color: var(--color-accent-first);
+    text-decoration: none;
+}
