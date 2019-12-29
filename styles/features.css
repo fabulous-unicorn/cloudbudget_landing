@@ -5,15 +5,14 @@
 
 .features__h {
     margin-bottom: 64px;
-    text-align: center;
 
+    text-align: center;
     font-size: var(--font-size-xl);
     font-weight: 600;
 }
 
 .features__list {
     display: flex;
-    /* align-content: space-between; */
     justify-content: space-between;
 
     padding-left: 34px;
@@ -37,11 +36,11 @@
 
     background-position: center center;
     background-repeat: no-repeat;
-
     border-radius: 8px;
 }
 
 .features__card__info {
+    display: flex;
     position: relative;
     width: 294px;
     height: 198px;
@@ -72,6 +71,4 @@
 
 .features__card__description {
     font-size: var(--font-size-x);
-    /* margin-top: 20px;
-    margin-bottom: 20px; */
 }
