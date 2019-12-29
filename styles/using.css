@@ -1,0 +1,44 @@
+.using {
+    display: flex;
+    justify-content: space-between;
+    padding: 94px 0;
+}
+
+.using__h {
+    font-size: var(--font-size-xl);
+    font-weight: 600;
+}
+
+.using__description {
+    margin-top: 54px;
+    margin-bottom: 20px;
+
+    font-size: var(--font-size-x);
+}
+
+.using__videopreview {
+    position: relative;
+}
+
+.videopreview__button {
+    position: absolute;
+    transform: translateY(-50%);
+    left: 90px;
+    top: 50%;
+    height: 66px;
+    width: 66px;
+    padding-right: 0px;
+    padding-left: 0px;
+
+    border: none;
+    background: url("../assets/icons/play_button.svg") no-repeat center center;
+}
+
+.videopreview__image {
+    width: 445px;
+    margin-left: 124px;
+    height: 311px;
+
+    background: url("../assets/images/video_bg0.png") no-repeat center center;
+    border-radius: 15px;
+}
