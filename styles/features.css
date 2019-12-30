@@ -15,8 +15,8 @@
     display: flex;
     justify-content: space-between;
 
-    padding-left: var(--space-x);
-    padding-right: var(--space-x);
+    padding-left: var(--space-s);
+    padding-right: var(--space-s);
     margin-top: var(--space-section-l);
 }
 
@@ -57,7 +57,7 @@
     align-items: center;
     justify-content: space-between;
 
-    padding: var(--space-x) var(--space-m) ;
+    padding: var(--space-s) var(--space-m) ;
 }
 
 .features__card__h {
@@ -67,6 +67,6 @@
 }
 
 .features__card__description {
-    font-size: var(--font-size-x);
+    font-size: var(--font-size-s);
     text-align: center;
 }

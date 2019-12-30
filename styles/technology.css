@@ -1,6 +1,6 @@
 .technology {
-    padding-top: var(--space-xxx);
-    padding-bottom: var(--space-section-x);
+    padding-top: var(--space-xxxl);
+    padding-bottom: var(--space-section-s);
 }
 
 .technology__h {
@@ -20,7 +20,7 @@
 .techonology__item {
     margin: 0 auto;
     padding-top: 0;
-    padding-bottom: var(--space-x);
+    padding-bottom: var(--space-s);
     padding-left: var(--space-m);
     padding-right: var(--space-m);
     display: flex;
@@ -35,8 +35,8 @@
 }
 
 .technology__item__number {
-    margin-bottom: var(--space-s);
-    
+    margin-bottom: var(--space-xs);
+
     text-align: center;
     font-size: 100px;
     font-weight: 900;
@@ -56,6 +56,6 @@
 }
 
 .technology__item__description {
-    font-size: var(--font-size-x);
+    font-size: var(--font-size-s);
     text-align: center;
 }
