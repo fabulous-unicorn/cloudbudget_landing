@@ -1,0 +1,25 @@
+.contact {
+    margin: var(--space-section-s) auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact__textwrapper{
+margin-right: var(--space-section-s);
+}
+
+.contact__h {
+    font-size: var(--font-size-xl);
+    font-weight: 600;
+}
+
+.contact__description {
+    margin-top: var(--space-xxl);
+    line-height: 150%;
+}
+
+/* .contact__form {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+} */

@@ -9,19 +9,25 @@
 .filled_light_button {
     border: none;
     color: var(--color-accent-first);
-    background-color: white;
+    background-color: #FFF;
+}
+
+.filled_dark_button {
+    border: none;
+    color: #FFF;
+    background-color: var(--color-accent-first);
 }
 
 .filled_button {
     border: none;
     color: var(--color-accent-first);
-    background-color: white;
+    background-color: #FFF;
 }
 
 .outline_button {
-    border: 1px solid #FFFFFF;
+    border: 1px solid #FFF;
     box-sizing: border-box;
-    color: white;
+    color: #FFF;
     background: none;
 }
 
