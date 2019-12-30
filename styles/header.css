@@ -37,14 +37,14 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: var(--space-x);
+    padding-top: var(--space-s);
 }
 
 .nav__logo::before {
     display: inline-block;
     height: 20px;
     width: 30px;
-    margin-right: var(--space-xs);
+    margin-right: var(--space-xxs);
     vertical-align: bottom;
 
     content: "";
@@ -63,7 +63,7 @@ header {
 }
 
 .nav__list__link {
-    margin: auto var(--space-xs);
+    margin: auto var(--space-xxs);
 }
 
 .language_select {
@@ -78,7 +78,7 @@ header {
 .login_button {
     display: inline-block;
     width: 100px;
-    margin-left: var(--space-xs);
+    margin-left: var(--space-xxs);
 }
 
 .header__section {

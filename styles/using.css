@@ -1,7 +1,7 @@
 .using {
     display: flex;
     justify-content: space-between;
-    padding: var(--space-section-x) 0;
+    padding: var(--space-section-s) 0;
 }
 
 .using__h {
@@ -11,9 +11,9 @@
 
 .using__description {
     margin-top: var(--space-xxl);
-    margin-bottom: var(--space-x);
+    margin-bottom: var(--space-s);
 
-    font-size: var(--font-size-x);
+    font-size: var(--font-size-s);
 }
 
 .using__videopreview {
