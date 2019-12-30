@@ -1,0 +1,41 @@
+.footer {
+    padding: var(--space-section-xs) 0;
+}
+
+.footer__wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-bottom: var(--space-section-xs);
+}
+
+.footer__h {
+    margin-bottom: var(--space-m);
+
+    font-weight: 900;
+    font-size: var(--font-size-m);
+}
+
+.footer__link {
+    text-decoration: none;
+    color: var(--color-typo-primary-dark);
+}
+
+.footer__services__list li:not(:first-child) {
+    margin-top: var(--space-xxs);
+}
+
+.footer__address__description {
+    line-height: 150%;
+}
+
+.footer__get_in_touch__list li:not(:first-child) {
+    margin-top: var(--space-xxs);
+}
+
+.footer__button_wrapper {
+    margin-top: var(--space-s);
+}
+
+.footer__copyright {
+    font-size: var(--font-size-s);
+}
