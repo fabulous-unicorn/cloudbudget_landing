@@ -24,3 +24,24 @@
     color: white;
     background: none;
 }
+
+.button_playstore {
+    background: url("../assets/icons/logo_playstore.svg") no-repeat center center;
+    border: none;
+    width: 32px;
+    height: 32px;
+}
+
+.button_appstore {
+    background: url("../assets/icons/logo_appstore.svg") no-repeat center center;
+    border: none;
+    width: 32px;
+    height: 32px;
+}
+
+.button_windows {
+    background: url("../assets/icons/logo_windows.svg") no-repeat center center;
+    border: none;
+    width: 32px;
+    height: 32px;
+}
