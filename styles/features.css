@@ -68,4 +68,5 @@
 
 .features__card__description {
     font-size: var(--font-size-x);
+    text-align: center;
 }
