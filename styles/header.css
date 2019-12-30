@@ -34,10 +34,9 @@ header {
 }
 
 .header__nav {
-    display: grid;
-    grid-template-columns: 1fr 2fr 1fr; 
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    justify-items: center;
     padding-top: var(--space-x);
 }
 
@@ -46,6 +45,7 @@ header {
     height: 20px;
     width: 30px;
     margin-right: var(--space-xs);
+    vertical-align: bottom;
 
     content: "";
     background: url("../assets/icons/dashicons_cloud.svg") no-repeat center center;
@@ -57,9 +57,13 @@ header {
 }
 
 .nav__list {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    justify-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__list__link {
+    margin: auto var(--space-xs);
 }
 
 .language_select {
@@ -85,8 +89,7 @@ header {
 }
 
 h1 {
-    margin-bottom: 0px;
-    margin-top: 0px;
+    margin: 0 auto;
 
     font-size: var(--font-size-xxl);
     font-weight: 900;
