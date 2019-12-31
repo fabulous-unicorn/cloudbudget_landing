@@ -15,14 +15,14 @@
     width: 32px;
     height: 32px;
 }
-/* TODO: поменять последни два слова местами */
-.filled_light_button {
+
+.filled_button_light {
     border: none;
     color: var(--color-accent-first);
     background-color: #FFF;
 }
 
-.filled_dark_button {
+.filled_button_dark {
     border: none;
     color: #FFF;
     background-color: var(--color-accent-first);
