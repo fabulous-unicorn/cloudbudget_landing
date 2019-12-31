@@ -6,6 +6,16 @@
     font-weight: 400;
 }
 
+.button_size-s {
+    width: 14px;
+    height: 14px;
+}
+
+.button_size-m {
+    width: 32px;
+    height: 32px;
+}
+/* TODO: поменять последни два слова местами */
 .filled_light_button {
     border: none;
     color: var(--color-accent-first);
@@ -28,20 +38,29 @@
 .button_playstore {
     background: url("../assets/icons/logo_playstore.svg") no-repeat center center;
     border: none;
-    width: 32px;
-    height: 32px;
 }
 
 .button_appstore {
     background: url("../assets/icons/logo_appstore.svg") no-repeat center center;
     border: none;
-    width: 32px;
-    height: 32px;
 }
 
 .button_windows {
     background: url("../assets/icons/logo_windows.svg") no-repeat center center;
     border: none;
-    width: 32px;
-    height: 32px;
+}
+
+.button_facebook {
+    background: url("../assets/icons/logo_facebook.svg") no-repeat center center;
+    border: none;
+}
+
+.button_linkedin {
+    background: url("../assets/icons/logo_linkedin.svg") no-repeat center center;
+    border: none;
+}
+
+.button_twitter {
+    background: url("../assets/icons/logo_twitter.svg") no-repeat center center;
+    border: none;
 }
