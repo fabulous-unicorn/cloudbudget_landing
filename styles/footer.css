@@ -20,19 +20,16 @@
     color: var(--color-typo-primary-dark);
 }
 
-.footer__services__list li:not(:first-child) {
-    margin-top: var(--space-xxs);
-}
-
-.footer__address__description {
-    line-height: 150%;
-}
-
+.footer__services__list li:not(:first-child), 
 .footer__get_in_touch__list li:not(:first-child) {
     margin-top: var(--space-xxs);
 }
 
-.footer__button_wrapper {
+.footer__address {
+    line-height: 150%;
+}
+
+.footer__button-wrapper {
     margin-top: var(--space-s);
 }
 

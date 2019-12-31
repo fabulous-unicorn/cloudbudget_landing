@@ -15,7 +15,7 @@
     width: 32px;
     height: 32px;
 }
-
+/* TODO: поменять последни два слова местами */
 .filled_light_button {
     border: none;
     color: var(--color-accent-first);
