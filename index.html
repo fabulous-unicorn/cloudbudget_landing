@@ -166,16 +166,21 @@
                 <p class="contact__description">Questions or concerns? Just fill out the form below and our support team will get back to you within 24 hours</p>
             </div>
             <form class="contact__form">
-                <input type="text" placeholder="First Name" class="outline_input">
-                <input type="text"  placeholder="Last Name" class="outline_input">
-                <br>
-                <input type="text" placeholder="Phone Number" class="outline_input">
-                <br>
-                <select name="" id="" placeholder="Select Service" class="outline_input">
+                <div class="contact__form__name-wrapper contact-input-margin" >
+                    <input type="text" placeholder="First Name" class="outline_input contact__form__input contact__form__firstname">
+                    <input type="text"  placeholder="Last Name" class="outline_input contact__form__input contact__form__lastname">
+                </div>
+                <div class="contact-input-margin">
+                    <input type="text" placeholder="Phone Number" class="outline_input fullsize contact__form__input contact__form__phone">
+                </div>
+                <div class="contact-input-margin">
+                    <select name="" id="" placeholder="Select Service" class="outline_input fullsize contact__form__input contact__form__select-service">
 
-                </select>
-                <br>
-                <button class="button filled_button_dark">Submit Now</button>
+                    </select>
+                </div>
+                <div class="contact-input-padding">
+                    <button type="submit" class="button filled_button_dark contact__form__button-submit-now">Submit Now</button>
+                </div>
             </form>
         </section>
     </main>
